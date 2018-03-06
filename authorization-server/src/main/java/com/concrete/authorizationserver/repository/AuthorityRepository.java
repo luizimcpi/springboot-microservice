@@ -1,0 +1,11 @@
+package com.concrete.authorizationserver.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.concrete.authorizationserver.model.Authority;
+
+public interface AuthorityRepository extends JpaRepository<Authority, String>{
+	
+	Authority findByName(String name);
+	
+}
