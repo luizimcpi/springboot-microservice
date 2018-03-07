@@ -7,6 +7,7 @@ Requirements:
 Maven
 JDK 8
 MySQL with "oauth" schema created
+You can adjust the db config here -> https://github.com/luizimcpi/springboot-microservice-config/blob/master/authorization-server.yml
 ```
 ```
 First
@@ -18,7 +19,7 @@ Run as EurekaServerApplication.java or mvn spring-boot:run inside root directory
 ```
 ```
 Finally
-Run as AuthorizationServerApplication.java or mvn spring-boot:run inside root directory of this application
+Run as AuthorizationServerApplication.java or mvn spring-boot:run inside root directory of the application
 ```
 
 POSTMAN PARAMETERS
