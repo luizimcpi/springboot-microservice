@@ -1,13 +1,11 @@
-# springboot-microservice
+#PersonServiceApplication
 
-This is a microservice built with SpringBoot stack
+This is the Person Service of a microservice built with SpringBoot stack
 
 Requirements:
 ```
 Maven
 JDK 8
-MySQL with "oauth" schema created
-You can adjust the db config here -> https://github.com/luizimcpi/springboot-microservice-config/blob/master/authorization-server.yml
 ```
 ```
 First
@@ -75,5 +73,4 @@ Method: DELETE
 URL
 http://localhost:9093/api/person/{id} (Delete Specific person by id)
 ```
-
 
