@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: person-service-h2
+  cloud:
+    config:
+      uri: http://localhost:9090
