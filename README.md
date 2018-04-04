@@ -25,6 +25,10 @@ Run as AuthorizationServerApplication.java or mvn spring-boot:run inside root di
 Finally
 Run as PersonServiceH2Application.java or mvn spring-boot:run inside root directory of this application
 ```
+```
+Optional Netflix Zuul Gateway
+Run as GatewayZuulServerApplication.java or mvn spring-boot:run inside root directory of this application
+```
 
 POSTMAN PARAMETERS (First Tab)
 ```
@@ -45,6 +49,8 @@ POSTMAN PARAMETERS (Second Tab)
 ```
 URL
 http://localhost:9093/api/person
+*If you are using the gateway use the following URL
+http://localhost:9094/api/person 
 ```
 ```
 Authorization Header
@@ -66,14 +72,20 @@ Body Content
 Method: GET
 URL
 http://localhost:9093/api/person (List of people)
+*If you are using the gateway use the following URL
+http://localhost:9094/api/person 
 
 Method: GET
 URL
 http://localhost:9093/api/person/{id} (Specific person by id)
+*If you are using the gateway use the following URL
+http://localhost:9094/api/person/{id} 
 
 Method: DELETE
 URL
 http://localhost:9093/api/person/{id} (Delete Specific person by id)
+*If you are using the gateway use the following URL
+http://localhost:9094/api/person/{id} 
 ```
 
 
