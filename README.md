@@ -48,9 +48,9 @@ Content-Type: application/json
 POSTMAN PARAMETERS (Second Tab)
 ```
 URL
-http://localhost:9093/api/person
+http://localhost:9093/person
 *If you are using the gateway use the following URL
-http://localhost:9094/api/person 
+http://localhost:9094/person 
 ```
 ```
 Authorization Header
@@ -71,21 +71,21 @@ Body Content
 ```
 Method: GET
 URL
-http://localhost:9093/api/person (List of people)
+http://localhost:9093/person (List of people)
 *If you are using the gateway use the following URL
-http://localhost:9094/api/person 
+http://localhost:9094/person 
 
 Method: GET
 URL
-http://localhost:9093/api/person/{id} (Specific person by id)
+http://localhost:9093/person/{id} (Specific person by id)
 *If you are using the gateway use the following URL
-http://localhost:9094/api/person/{id} 
+http://localhost:9094/person/{id} 
 
 Method: DELETE
 URL
-http://localhost:9093/api/person/{id} (Delete Specific person by id)
+http://localhost:9093/person/{id} (Delete Specific person by id)
 *If you are using the gateway use the following URL
-http://localhost:9094/api/person/{id} 
+http://localhost:9094/person/{id} 
 ```
 
 
