@@ -15,7 +15,7 @@ import com.concrete.personserviceh2.model.Person;
 import com.concrete.personserviceh2.service.PersonService;
 
 @RestController
-@RequestMapping(value = "/api/person", produces = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping(value = "/person", produces = MediaType.APPLICATION_JSON_VALUE)
 public class PersonController {
 	
 	@Autowired
